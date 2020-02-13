@@ -1,0 +1,45 @@
+.container{
+    max-width: 120rem;
+    margin: 8rem auto;
+    background-color: var(--color-grey-light-1);
+    box-shadow: var(--shadow-dark);
+
+    min-height: 50rem;
+}
+
+.header {
+    font-size: 1.4rem;
+    height: 7rem;
+    background-color: #fff;
+    border-bottom: var(--color-grey-light-2);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+}
+
+
+.sidebar {
+    background-color: var(--color-grey-dark-1);
+
+    flex: 0 0 18%; // 1st value = flex-grow, 2nd value= flex-shrink, 3rd value = flex-basis (this one defines the width of a flex item) 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hotel-view {
+    background-color: #fff;
+    
+    //test
+    background-color: orangered;
+    height: 80rem;
+    
+    flex: 1; //it means the flex item will grow as much it can 
+    
+}
